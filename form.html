@@ -14,24 +14,32 @@
             </nav>
         </header>
         <main>
-            <form>
+            <form action="https://formspree.io/myydrqvj" method="POST">
                 <label>
-                    Client phone:
-                    <input type="text" placeholder="Your mobile phone" required> 
+                    Client Name:
+                    <input type="text" name="client-name" placeholder="Your name"> 
                 </label>
                 <br>
                 <label>
                     Client email:   
-                    <input type="email" placeholder="Your email adress" required> 
+                    <input type="email" name="client-email" placeholder="Your email adress"> 
                 </label>
                 <br>
                 <label>Gender:</label>
+                <label>
                     <input type="radio" name="Gender" value="Male">Male
+                </label>
+                <label>
                     <input type="radio" name="Gender" value="Female">Female
+                </label>
+                <label>    
                     <input type="radio" name="Gender" value="Other">Other
+                </label>
                     <br>
+                <label>
                     <input type="submit">
                     <input type="reset">
+                </label>
                     
             </form>
         </main>
